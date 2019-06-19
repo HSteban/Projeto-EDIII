@@ -66,7 +66,7 @@ namespace apCaminhosMarte
         private void Form1_Load(object sender, EventArgs e)
         {
             cidades = new Arvore<CidadesMarte>();
-            LerCidades("CidadesMarteOrdenado.txt");
+            LerCidades("CidadesMarte.txt");
             LerCaminhos("CaminhosEntreCidadesMarte.txt");
             criaMapa(cidades.Raiz);
             locaCidades(mapa, rotas);

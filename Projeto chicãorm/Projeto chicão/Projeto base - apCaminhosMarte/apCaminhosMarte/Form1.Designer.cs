@@ -71,10 +71,10 @@
             this.tabControl1.Controls.Add(this.tpRotas);
             this.tabControl1.Controls.Add(this.tpArvore);
             this.tabControl1.Location = new System.Drawing.Point(3, 5);
-            this.tabControl1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabControl1.Margin = new System.Windows.Forms.Padding(4);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1768, 678);
+            this.tabControl1.Size = new System.Drawing.Size(1768, 676);
             this.tabControl1.TabIndex = 0;
             // 
             // tpRotas
@@ -90,10 +90,10 @@
             this.tpRotas.Controls.Add(this.lsbOrigem);
             this.tpRotas.Controls.Add(this.pbMapa);
             this.tpRotas.Location = new System.Drawing.Point(4, 25);
-            this.tpRotas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tpRotas.Margin = new System.Windows.Forms.Padding(4);
             this.tpRotas.Name = "tpRotas";
-            this.tpRotas.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.tpRotas.Size = new System.Drawing.Size(1760, 649);
+            this.tpRotas.Padding = new System.Windows.Forms.Padding(4);
+            this.tpRotas.Size = new System.Drawing.Size(1760, 647);
             this.tpRotas.TabIndex = 0;
             this.tpRotas.Text = "Rotas entre cidades";
             this.tpRotas.UseVisualStyleBackColor = true;
@@ -102,7 +102,7 @@
             // 
             this.btnBuscar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnBuscar.Location = new System.Drawing.Point(1628, 234);
-            this.btnBuscar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnBuscar.Margin = new System.Windows.Forms.Padding(4);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(119, 28);
             this.btnBuscar.TabIndex = 11;
@@ -123,8 +123,8 @@
             this.dataGridViewTextBoxColumn4,
             this.dataGridViewTextBoxColumn5,
             this.dataGridViewTextBoxColumn6});
-            this.dataGridView2.Location = new System.Drawing.Point(1383, 551);
-            this.dataGridView2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView2.Location = new System.Drawing.Point(1383, 549);
+            this.dataGridView2.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.ReadOnly = true;
             this.dataGridView2.Size = new System.Drawing.Size(369, 87);
@@ -185,8 +185,8 @@
             this.Column4,
             this.Column5,
             this.Column6});
-            this.dataGridView1.Location = new System.Drawing.Point(1383, 293);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView1.Location = new System.Drawing.Point(1383, 291);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.Size = new System.Drawing.Size(369, 223);
@@ -238,7 +238,7 @@
             // 
             this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(1379, 528);
+            this.label4.Location = new System.Drawing.Point(1379, 526);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(108, 17);
@@ -249,7 +249,7 @@
             // 
             this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(1379, 273);
+            this.label3.Location = new System.Drawing.Point(1379, 271);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(157, 17);
@@ -282,7 +282,7 @@
             "Burroughs       ",
             "Cairo            "});
             this.lsbDestino.Location = new System.Drawing.Point(1384, 159);
-            this.lsbDestino.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lsbDestino.Margin = new System.Windows.Forms.Padding(4);
             this.lsbDestino.Name = "lsbDestino";
             this.lsbDestino.Size = new System.Drawing.Size(235, 84);
             this.lsbDestino.TabIndex = 3;
@@ -313,7 +313,7 @@
             "Burroughs       ",
             "Cairo            "});
             this.lsbOrigem.Location = new System.Drawing.Point(1384, 31);
-            this.lsbOrigem.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lsbOrigem.Margin = new System.Windows.Forms.Padding(4);
             this.lsbOrigem.Name = "lsbOrigem";
             this.lsbOrigem.Size = new System.Drawing.Size(235, 84);
             this.lsbOrigem.TabIndex = 1;
@@ -325,9 +325,9 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pbMapa.Image = ((System.Drawing.Image)(resources.GetObject("pbMapa.Image")));
             this.pbMapa.Location = new System.Drawing.Point(9, 9);
-            this.pbMapa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pbMapa.Margin = new System.Windows.Forms.Padding(4);
             this.pbMapa.Name = "pbMapa";
-            this.pbMapa.Size = new System.Drawing.Size(1365, 630);
+            this.pbMapa.Size = new System.Drawing.Size(1365, 628);
             this.pbMapa.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbMapa.TabIndex = 0;
             this.pbMapa.TabStop = false;
@@ -337,19 +337,19 @@
             // 
             this.tpArvore.Controls.Add(this.pnlArvore);
             this.tpArvore.Location = new System.Drawing.Point(4, 25);
-            this.tpArvore.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tpArvore.Margin = new System.Windows.Forms.Padding(4);
             this.tpArvore.Name = "tpArvore";
-            this.tpArvore.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.tpArvore.Size = new System.Drawing.Size(1760, 649);
+            this.tpArvore.Padding = new System.Windows.Forms.Padding(4);
+            this.tpArvore.Size = new System.Drawing.Size(1760, 647);
             this.tpArvore.TabIndex = 1;
             this.tpArvore.Text = "Árvore de Cidades";
             this.tpArvore.UseVisualStyleBackColor = true;
             // 
             // pnlArvore
             // 
-            this.pnlArvore.Location = new System.Drawing.Point(7, 19);
+            this.pnlArvore.Location = new System.Drawing.Point(7, 7);
             this.pnlArvore.Name = "pnlArvore";
-            this.pnlArvore.Size = new System.Drawing.Size(1733, 621);
+            this.pnlArvore.Size = new System.Drawing.Size(1753, 644);
             this.pnlArvore.TabIndex = 0;
             this.pnlArvore.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlArvore_Paint);
             // 
@@ -359,7 +359,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1772, 682);
             this.Controls.Add(this.tabControl1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Projeto 3 - busca de caminhos entre cidades";
             this.Load += new System.EventHandler(this.Form1_Load);
